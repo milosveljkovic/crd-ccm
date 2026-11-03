@@ -1,0 +1,6 @@
+apiVersion: milosve.nerd.com/v1alpha1
+kind: CustomConfigMap
+metadata:
+  name: my-custom-resource-instance
+spec:
+  my-own-property: 'My first CRD instance'
